@@ -1,0 +1,48 @@
+/* code CSS pour le fichier CV.html*/
+body {
+    background-color : gray;
+}
+
+p{
+    font-size:20px;
+    font-style: oblique;
+}
+
+header {
+    color: white;
+    font-family: Courier ;
+}
+
+li {
+    list-style-type: disc;
+    padding : 10px;
+}
+
+.joli{
+    font-weight : bold;
+}
+
+div{
+    text-align : center;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+div img{
+    width: 95px;
+    float: left;
+}
+h2{
+    text-align : center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+h3{
+    text-align : center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+ul{
+    font-size:20px;
+}
