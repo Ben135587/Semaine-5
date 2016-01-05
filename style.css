@@ -1,17 +1,93 @@
 /* code CSS pour le fichier CV.html*/
-body {
-    background-color : gray;
-}
 
-p{
-    font-size:20px;
+header div p{
+    font-size:1.4em;
     font-style: oblique;
 }
 
-header {
-    color: white;
-    font-family: Courier ;
+main div div p, footer div p{
+	font-size: 1.2em;
+	font-family: Courier;
 }
+.conteneur0
+{
+   	width: 100%;
+    max-width: 960px;
+    padding: 10px;
+    margin: 15px;
+	height: 100px;
+    background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/footer_lodyas.png') ;
+    border-radius: 10px;
+    font-family: Courier ;
+    text-align: center;
+}
+
+header {
+    font-family: 'Trebuchet MS', Courier, sans-serif ;
+    text-align: center;
+  }
+
+#photo_moi
+{
+    float: right;
+    width : 75px;
+    height: 100px;
+    border-radius: 10px;   
+}
+
+#photo_geek{
+	width: 20%;
+	height: 40%;
+	padding: 5px;
+	margin: 10px;
+}
+
+.conteneur1
+{
+	display:flex;
+	width: 100%;
+    max-width: 960px;
+    background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ignasi_pattern_s.png') 15px;
+    border-radius: 10px;
+	padding: 10px;
+    margin: 15px;
+}
+
+.element
+{
+	display: inline-bloc;
+	width: 33%;
+	padding: 10px;
+	/*border: 1px solid black; pour situer les élements*/
+}
+
+.conteneur2
+{
+	width: 100%;
+    max-width: 960px;
+    background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/mirrored_squares.png') 15px;
+    border-radius: 10px;
+	padding: 10px;
+    margin: 15px;
+	text-align: center;
+}
+
+
+.cont22
+{
+	display:flex;
+	/*border: 1px solid red; pour situer les cont22*/
+}
+.element1
+{
+	display: inline-bloc;
+	width: 45%;
+	padding: 30px;
+	/*border: 1px solid black; pour situer les élements*/
+	text-align: left;
+}
+
+
 
 li {
     list-style-type: disc;
@@ -22,22 +98,20 @@ li {
     font-weight : bold;
 }
 
-div{
-    text-align : center;
-    border: 2px solid;
-    border-radius: 10px;
-    background-color: blue;
-}
 
 div img{
     width: 95px;
     float: left;
 }
+
 h2{
     text-align : center;
     border: 2px solid;
     border-radius: 10px;
 }
+
+
+
 h3{
     text-align : center;
     border: 2px solid;
